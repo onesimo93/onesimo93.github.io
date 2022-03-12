@@ -1,0 +1,438 @@
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+    opacity: 1; /* Firefox */
+    font-family: Lobster;
+  }
+  
+
+/* Here starts the Top Menu or NAV Menu of the page*/
+.Top_Menu{
+    display: flex;
+    background-color: #01a416;
+    border-radius: 10px;
+    justify-content: space-between;
+    width: 100%;
+    
+
+}
+.Nav_Bar{
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    font-family: Lobster;
+    font-style: bold;
+    width: 400px;
+    align-self: center;
+    
+}
+
+.Menu_Item{
+    padding: 10px 10px;
+}
+
+.Link_Menu:hover{
+    background-color: #016a06;
+    color: #e5ba33;
+    border-radius: 10px;
+    width: 50px;
+}
+
+a.Link_Menu{
+    padding: 10px 10px;
+    margin: auto;
+    color: #e9f1e9;
+    text-decoration: none;
+    font-family: Lobster;
+}
+
+.Logo_Container{
+    align-self: flex-start;
+    width: 150px;
+    height: 75px;
+    background: no-repeat center/100% url("./assets/Meme\ Tronics\ logo.png");
+    display: inline-block;
+    transition: all 0.5s ease;
+  }
+
+  .Logo_Container:hover{
+      background: no-repeat center/100% url("./assets/MT\ Logo_dorado.png")
+  }
+
+/* Here ends the Top Menu or NAV Menu of the page */
+
+/* Here starts the blurred image and intro text of the page  */
+
+.bg-image {
+    /* The image used */
+    background-image: url("./assets/soldering-istock-1089487772.jpg");
+  
+    /* Add the blur effect */
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+  
+    /* Full height */
+    height: 50%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10px;
+  }
+
+  .bg-text {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    font-family: Lobster;
+    color: white;
+    font-weight: bold;
+    border: 3px solid #01a416;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .bg-text h1{
+    letter-spacing: 5px;
+    font-style: italic;
+    transition: all 0.5s ease;
+    padding: 10px;
+    font-size: 30px;
+}
+
+.bg-text h1:hover{
+   color: #e5ba33;
+   font-size: 40px;
+}
+
+.bg-text p{
+  letter-spacing: 5px;
+  font-style: italic;
+  transition: all 0.5s ease;
+  padding: 10px;
+  font-size: 15px;
+}
+
+.bg-text p:hover{
+  color: #e5ba33;
+}
+/* Here ends the blurred image and intro text of the page  */
+
+/* Here starts the The Zero PI SP showcase  */
+
+  .Jumbotron{
+    display: flex;
+    width: 100%;
+    height: 355px;
+    justify-content: space-between;
+    background: rgb(39,156,85);
+    background: radial-gradient(circle, rgba(39,156,85,1) 0%, rgba(1,106,6,1) 18%, rgba(1,164,22,1) 100%);
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+  }
+
+  .Zero_Pi{
+    order:-1;
+    width: 35%;
+    height: 90%;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    -webkit-border-radius: 120px;
+    -moz-border-radius: 120px;
+    border-radius: 120px;
+    border: none;
+   
+    background: no-repeat center/100% url("./assets/T-I58W271283A-02[3493].jpg");
+    display: inline-block;
+    transition: all 0.01s ease;
+    
+
+  }
+
+  .Zero_Pi:hover{
+    background: no-repeat center/100% url("./assets/T-I58W271283A-01[3494].jpg");
+  }
+
+  .Box_4_content{
+      display: flex;
+      height: 90%;
+      width: 65%;
+      flex-flow: column;
+      justify-content: center;
+      align-items: center;
+      background-color:whitesmoke;
+      -webkit-border-radius: 120px;
+      -moz-border-radius: 120px;
+      border-radius: 120px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      border: dashed;
+      border-color: #016a06;
+      margin-right: 1%;
+      
+
+
+  }
+
+  .Header_Principal_Product{
+      justify-content: end;
+      width: 50%;
+      margin-left: 25%;
+      margin-right: 0%;
+      font-family: Lobster;
+      font-size: 30px;
+      font-style: italic;
+  }
+  
+  .Sales_Pitch{
+      font-family: Lobster;
+      font-size: 25px;
+      margin-left: 25%;
+  }
+
+  .Register_4_Notification{
+      flex-flow: column;
+      justify-content: center;
+      align-self: center;
+      font-family: Lobster;
+      margin-left: 25%;
+      margin-right: 25%;
+  }
+
+  .Text_Input{
+      justify-content: center;
+  }
+
+  .Submit{
+    border-radius: 12px;
+    padding: 5px 12px;
+    margin: 5px;
+    font-family: Lobster;
+    color: white;
+    background-color: #01a416;
+    transition: all 0.5s ease;
+  }
+
+  .Submit:hover{
+    background-color: #016a06;
+    color: #e5ba33;
+  }
+
+  .Text_Box{
+    background-color: #01a416;
+    color: white;
+    font-family: Lobster;
+}
+
+/* Here Ends the The Zero PI SP showcase  */
+
+/* Here starts the Blog  */
+
+.Blog{
+    display: flex;
+    justify-content:space-evenly;
+}
+
+.Spot{
+    display: flex;
+    flex-flow: column;
+    margin: 10px;
+    background-color: white;
+    box-shadow: 20px 20px 50px grey;
+    width: 300px;
+    height: 300px;
+    border: solid;
+    border-color: black;
+    border-radius: 10%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.Spot h3{
+    display: flex;
+    align-self: center;
+    color: #01a416;
+    justify-content: center;
+    margin: 10%;
+    font-family: Lobster;
+}
+
+.Spot_1_img{
+    background: no-repeat center/120% url("./assets/Sin\ título.png");    
+    width: 200px;
+    height: 60%;
+    margin: 10%;
+    align-self: center;
+    justify-content: center;
+    border-radius: 50%;
+
+}
+
+.Spot_2_img{
+    background: no-repeat center/120% url("./assets/7.png");
+    width: 200px;
+    height: 60%;
+    margin: 10%;
+    align-self: center;
+    justify-content: center;
+    border-radius: 50%;
+
+}
+
+.Spot_3_img{
+    background: no-repeat center/120% url("./assets/images.png");    
+    width: 200px;
+    height: 60%;
+    margin: 10%;
+    align-self: center;
+    justify-content: center;
+    border-radius: 50%;
+
+}
+
+/* Here Ends the Blog  */
+
+
+/* Here Starts the footer  */
+
+.Pie_Pag{
+    display: flex;
+    background-color: #01a416;
+    border-radius: 10px;
+    width: 100%;
+    height: 250px;
+    justify-content: space-between;
+    flex-flow: row-reverse;
+}
+
+.Pie_Menu{
+    margin-left: 10%;
+}
+
+.Amsiety{
+    display: flex;
+    font-family: Lobster;
+    margin-right: 10%;
+    color: white;
+    flex-flow: column-reverse;
+    align-content: center;
+    justify-content: center;
+}
+
+.Amsiety_logo{
+    background: no-repeat center/100% url("./assets/Cheems_Amsiety_logo.png");
+    width: 200px;
+    height: 150px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  @media all and (max-width: 1120px)
+  {
+    .Header_Principal_Product{
+        justify-content: end;
+        width: 50%;
+        margin-left: 20%;
+        margin-right: 0%;
+        font-family: Lobster;
+        font-size: 20px;
+        font-style: italic;
+    }
+    
+    .Sales_Pitch{
+        font-family: Lobster;
+        font-size: 15px;
+        margin-left: 20%;
+    }
+    .Submit{
+        border-radius: 12px;
+        padding: 5px 12px;
+        margin: 2px;
+        font-family: Lobster;
+        color: white;
+        background-color: #01a416;
+      }
+
+      .Blog{
+        flex-flow: column;
+        margin: 5%;
+    }
+
+    .Spot{
+        width: 100%;
+        margin: 5%;
+        flex-flow: row;
+    }
+
+
+    
+  }
+@media all and (max-width: 600px) {
+    .Logo_Container{
+        align-self: flex-start;
+        width: 20%;
+        height: 10%;
+        background: no-repeat center/100% url("./assets/Meme\ Tronics\ logo.png");
+        display: inline-block;
+        transition: all 0.5s ease;
+      }
+    
+      .Logo_Container:hover{
+          background: no-repeat center/100% url("./assets/MT\ Logo_dorado.png")
+      }
+
+      .Nav_Bar{
+        display: flex;
+        flex-flow: row;
+        align-items: center;
+        font-family: Lobster;
+        font-style: bold;
+        width: 30%;
+        align-self: center;
+        
+    }
+    .Zero_Pi{
+        order:-1;
+        width: 35%;
+        height: 100%;
+        margin-left: 6%;
+        margin-right: 6%;
+        -webkit-border-radius: 20%;
+        -moz-border-radius: 20%;
+        border-radius: 20%;
+        border: none;
+       
+        background: no-repeat center/100% url("./assets/T-I58W271283A-02[3493].jpg");
+        display: inline-block;
+        transition: all 0.01s ease;       
+        
+    
+      }
+      
+
+}
