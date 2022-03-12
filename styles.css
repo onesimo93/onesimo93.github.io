@@ -146,9 +146,7 @@ a.Link_Menu{
     margin-right: 40px;
     margin-top: 10px;
     margin-bottom: 10px;
-    -webkit-border-radius: 120px;
-    -moz-border-radius: 120px;
-    border-radius: 120px;
+    border-radius: 50%;
     border: none;
    
     background: no-repeat center/100% url("./assets/T-I58W271283A-02[3493].jpg");
